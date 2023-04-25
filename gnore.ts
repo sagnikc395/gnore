@@ -20,8 +20,4 @@ const main = () => {
   });
 };
 
-try {
-  main();
-} catch (e) {
-  console.error(e);
-}
+await main();
