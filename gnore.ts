@@ -1,5 +1,8 @@
 import {program} from '@caporal/core';
 
+
+//sample endpoint to hit : https://github.com/github/gitignore/blob/main/Python.gitignore
+
 const BASE_URL = "https://raw.githubusercontent.com/github/gitignore/main/"
 
 function testFetch(BASE_URL: string,lang: string) : void {
